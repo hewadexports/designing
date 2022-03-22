@@ -67,7 +67,7 @@ nav {
   font-family: "Pacifico", cursive;
   font-weight: bold;
   color: #c0c0c0;
-  bottom: 0.125rem;
+  bottom: 0.12rem;
   left: 7rem;
   padding-bottom: 0.188rem;
 }
@@ -1986,7 +1986,7 @@ nav a.menu-item:hover:before {
   }
 
   .logo span {
-    left: 4.8rem;
+    left: 4.5rem;
   }
 
   .showcase h2,
@@ -2281,7 +2281,7 @@ nav a.menu-item:hover:before {
   }
 
   .logo span {
-    left: 4.8rem;
+    left: 4.5rem;
   }
 
   nav {
