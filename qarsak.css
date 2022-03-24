@@ -39,7 +39,7 @@ header {
 nav {
   display: flex;
   align-items: center;
-  background: rgb(38, 38, 38);
+  background: RGB(82, 86, 89);
   padding: 0.63rem 0;
   justify-content: space-between;
   position: relative;
@@ -344,8 +344,8 @@ padding-bottom: 3px;
 
 .showcase1 {
   background-image: linear-gradient(
-      120deg,
-      rgba(0, 0, 0, 0.8) 50%,
+      -120deg,
+      rgba(34, 24, 49, 0.8) 50%,
       transparent 50%
     ),
     url("images/concert.jpeg");
@@ -366,7 +366,7 @@ padding-bottom: 3px;
 .showcase2 {
   background-image: linear-gradient(
       180deg,
-      rgba(0, 0, 0, 0.8) 50%,
+      rgba(34, 24, 49, 0.8) 50%,
       transparent 50%
     ),
     url(images/microphone-pic.jpeg);
@@ -396,7 +396,7 @@ padding-bottom: 3px;
 .showcase3 {
   background-image: linear-gradient(
       360deg,
-      rgba(0, 0, 0, 0.8) 100%,
+      rgba(34, 24, 49, 0.8) 100%,
       transparent 50%
     ),
     url(images/qr-ticket.png);
@@ -437,7 +437,7 @@ padding-bottom: 3px;
 .showcase4 {
   background-image: linear-gradient(
       -75deg,
-      rgba(0, 0, 0, 0.8) 50%,
+      rgba(34, 24, 49, 0.8) 50%,
       transparent 100%
     ),
     url(images/conf-event.png);
@@ -451,12 +451,7 @@ padding-bottom: 3px;
 }
 
 .showcase5 {
-  background-image: linear-gradient(
-      -75deg,
-      rgba(0, 0, 0, 0.8) 20%,
-      transparent 40%
-    ),
-    url(images/something-is-coming.webp);
+  background-image: url(images/something-is-coming.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -547,14 +542,7 @@ padding-bottom: 3px;
 
 /* Artists Page External Link Starts Here */
 .artists {
-  background: linear-gradient(
-      160deg,
-      rgba(107, 39, 45, 0.8) 60%,
-      transparent 80%
-    ),
-    url("images/bizrelationship.jpeg");
-  height: 110vh;
-  width: auto;
+  background: #48d1cc;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -598,6 +586,7 @@ padding-bottom: 3px;
   line-height: 1.88rem;
   width: 75%;
   font-size: 1.25rem;
+  margin-bottom: 3rem;
 }
 
 /* Artists Form Below Artists External Link Starts Here */
@@ -702,7 +691,7 @@ input[type="radio"]:checked + span {
 /* CONTACT-US FORM */
 
 .contact-us-wrapper {
-  background: url("images/artists.jpeg");
+  background: #48d1cc;
   background-size: 280%;
   background-position: -25rem 0px;
   height: 100vh;
@@ -878,7 +867,8 @@ input[type="radio"]:checked + span {
 .top-picks {
   margin: 3.125rem 0 3.5rem 0;
   margin-bottom: 0;
-  padding: 0 15px;
+  padding: 5px 15px 0 15px;
+  background: #f8f8ff;
 }
 
 .top-picks-heading {
@@ -981,6 +971,11 @@ input[type="radio"]:checked + span {
   padding-bottom: 10px;
 }
 
+.heading-buy-info-box h5 {
+  font-family: sans-serif;
+  line-height: 2rem;
+}
+
 .top-picks-event {
   margin-bottom: 4.8rem;
   text-align: center;
@@ -1042,7 +1037,7 @@ input[type="radio"]:checked + span {
 /* Footer Section */
 
 .footer {
-  background: rgb(38, 38, 38);
+  background: RGB(82, 86, 89);
   position: relative;
 
   padding: 4.38rem 0;
@@ -1457,7 +1452,7 @@ nav a.menu-item:hover:before {
 
 .price {
   padding: 80px 0;
-  background: #262626;
+  background: #48d1cc;
   color: #fff;
 }
 
@@ -1521,6 +1516,34 @@ nav a.menu-item:hover:before {
 }
 
 .started__btn:hover {
+  border: 2px solid transparent;
+  background: #fff;
+  color: rgb(38, 38, 38);
+}
+
+.started__btn-top-artist-page {
+  display: inline-block;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 24px;
+  line-height: 30px;
+  padding: 15px 40px;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.15s linear;
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  -ms-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+}
+
+.started__btn-top-artist-page:hover {
   border: 2px solid transparent;
   background: #fff;
   color: rgb(38, 38, 38);
@@ -1601,7 +1624,7 @@ nav a.menu-item:hover:before {
 }
 
 .red__box-item {
-  background: #262626;
+  background: #48d1cc;
   color: #e7eaea;
 }
 
@@ -1656,6 +1679,7 @@ nav a.menu-item:hover:before {
 
 .add__ons {
   padding: 80px 0;
+  background: #b0e0e6;
 }
 
 .add__ons-items {
@@ -1667,7 +1691,7 @@ nav a.menu-item:hover:before {
   flex: 1;
   position: relative;
   padding: 40px 30px;
-  background: #fff;
+  background: #87cefa;
   color: #262626;
   margin-left: 15px;
   margin-right: 15px;
@@ -1933,6 +1957,12 @@ nav a.menu-item:hover:before {
   }
 
   .started__btn {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 30px;
+  }
+
+  .started__btn-top-artist-page {
     font-size: 20px;
     line-height: 30px;
     padding: 10px 30px;
@@ -2629,6 +2659,11 @@ nav a.menu-item:hover:before {
   }
 
   .started__btn {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .started__btn-top-artist-page {
     font-size: 18px;
     line-height: 26px;
   }
