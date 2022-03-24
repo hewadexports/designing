@@ -39,7 +39,7 @@ header {
 nav {
   display: flex;
   align-items: center;
-  background: RGB(82, 86, 89);
+  background: #4682b4;
   padding: 0.63rem 0;
   justify-content: space-between;
   position: relative;
@@ -66,7 +66,7 @@ nav {
   position: absolute;
   font-family: "Pacifico", cursive;
   font-weight: bold;
-  color: #c0c0c0;
+  color: #afeeee;
   bottom: 0.12rem;
   left: 7rem;
   padding-bottom: 0.188rem;
@@ -1037,7 +1037,7 @@ input[type="radio"]:checked + span {
 /* Footer Section */
 
 .footer {
-  background: RGB(82, 86, 89);
+  background: #4682b4;
   position: relative;
 
   padding: 4.38rem 0;
@@ -1554,7 +1554,7 @@ nav a.menu-item:hover:before {
 }
 
 .price__right-content p {
-  color: #ec0606;
+  color: #000;
   font-size: 26px;
   line-height: 30px;
   font-weight: 700;
