@@ -382,13 +382,13 @@ padding-bottom: 3px;
 }
 
 .showcase2 p {
-  color: #71eeb8;
+  color: #fff;
   font-size: 2rem;
   padding: 1rem;
 }
 
 .register-ad {
-  color: #ec9028;
+  color: #fff;
   display: inline-block;
   padding: 1rem;
 }
@@ -1348,7 +1348,7 @@ nav a.menu-item:hover:before {
   font-size: 50px;
   line-height: 60px;
   padding-bottom: 10px;
-  color: #262626;
+  color: #000;
   border-bottom: 3px solid #262626;
   display: flex;
   justify-content: center;
@@ -1685,6 +1685,10 @@ nav a.menu-item:hover:before {
 .add__ons-items {
   display: flex;
   margin-top: 80px;
+}
+
+.add__ons-items p {
+  margin-bottom: 1.3rem;
 }
 
 .add__ons-item {
