@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- favicon links-->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="favicon.qarsak/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="favicon.qarsak/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="favicon.qarsak/favicon-16x16.png"
+        />
+        <link rel="manifest" href="favicon.qarsak/site.webmanifest" />
+
+        <!-- Search Functionality Link -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>QARSAK</title>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Coiny&family=Great+Vibes&family=Josefin+Sans:wght@700&family=Notable&family=Pacifico&family=Roboto:wght@900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Font Awesome CDN -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- Swiper Slider CSS CDN Link  -->
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="qarsak.css" />
+    </head>
+    <body>
+        <!-- Header Area -->
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <h1><a href="index.html">QARSAK</a></h1>
+                    <p><span>living our culture</span></p>
+                </div>
+
+                <!-- Mobile Hamburger Icon -->
+                <button class="navbar-toggler">
+                    <div class="toggler-btn">
+                        <span class="bar bar1"></span>
+                        <span class="bar bar2"></span>
+                        <span class="bar bar3"></span>
+                    </div>
+                </button>
+                <!-- Mobile Hamburger Icon -->
+
+                <!-- Header Search -->
+                <div class="header-search">
+                    <input
+                        type="text"
+                        id="search-bar"
+                        placeholder="find events near me..."
+                    />
+                    <button class="search-icon" onclick="redirectToOtherSite()">
+                        <span
+                            ><i class="fa-solid fa-magnifying-glass"></i
+                        ></span>
+                    </button>
+                </div>
+                <!-- Header Search -->
+
+                <div class="social-links">
+                    <a class="menu-item" href="artists.html"
+                        >Event Organizers</a
+                    >
+                    <a class="menu-item" href="about.html">About Us</a>
+                    <a class="menu-item" href="contact-us.php">Contact Us</a>
+                    <a href="https://www.facebook.com/qarsakofficial"
+                        ><i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#"><i class="fab fa-twitter"></i> </a>
+                    <a href="https://www.instagram.com/qarsak_official/"
+                        ><i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@qarsak.com"
+                        ><i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <!-- Header Area -->
+
+        <!-- Main Content -->
+        <main class="container how__it-works">
+            <!-- Mission Area -->
+            <div class="mission__inner">
+                <!-- Section Title -->
+                <div class="section__title">
+                    <h3>Easy and secure ticket resale.</h3>
+                </div>
+                <!-- Section Title -->
+                <div class="mission__inner-items">
+                    <div class="mission__inner-item">
+                        <div class="mission__icon">
+                            <svg
+                                viewBox="0 0 78 47"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M33.9565 8.7472C41.9181 8.6482 49.5732 5.66296 55.5 0.345947C61.4264 5.66396 69.0815 8.65019 77.0435 8.74995C77.346 10.5374 77.5 12.3799 77.5 14.2527C77.5 28.6214 68.315 40.8452 55.5 45.3744C42.685 40.8424 33.5 28.6187 33.5 14.2499C33.5 12.3744 33.6567 10.5374 33.9565 8.7472V8.7472ZM65.6942 18.9442C66.1952 18.4255 66.4724 17.7309 66.4661 17.0098C66.4598 16.2888 66.1706 15.5991 65.6608 15.0892C65.1509 14.5793 64.4611 14.2901 63.7401 14.2838C63.0191 14.2776 62.3244 14.5548 61.8058 15.0557L52.75 24.1114L49.1942 20.5557C48.6756 20.0548 47.9809 19.7776 47.2599 19.7838C46.5389 19.7901 45.8491 20.0793 45.3392 20.5892C44.8294 21.0991 44.5402 21.7888 44.5339 22.5098C44.5276 23.2309 44.8048 23.9255 45.3058 24.4442L50.8058 29.9442C51.3215 30.4597 52.0208 30.7494 52.75 30.7494C53.4792 30.7494 54.1785 30.4597 54.6942 29.9442L65.6942 18.9442V18.9442Z"
+                                    fill="#F082EA"
+                                    fill-opacity="0.5"
+                                ></path>
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M0.4565 9.40125C8.41812 9.30225 16.0732 6.31701 22 1C27.9264 6.31801 35.5815 9.30425 43.5435 9.404C43.846 11.1915 44 13.034 44 14.9068C44 29.2755 34.815 41.4993 22 46.0285C9.185 41.4965 0 29.2727 0 14.904C0 13.0285 0.15675 11.1915 0.4565 9.40125V9.40125ZM32.1942 19.5982C32.6952 19.0796 32.9724 18.3849 32.9661 17.6639C32.9598 16.9429 32.6706 16.2531 32.1608 15.7432C31.6509 15.2334 30.9611 14.9442 30.2401 14.9379C29.5191 14.9316 28.8244 15.2088 28.3058 15.7097L19.25 24.7655L15.6942 21.2097C15.1756 20.7088 14.4809 20.4316 13.7599 20.4379C13.0389 20.4442 12.3491 20.7334 11.8392 21.2432C11.3294 21.7531 11.0402 22.4429 11.0339 23.1639C11.0276 23.8849 11.3048 24.5796 11.8058 25.0982L17.3058 30.5982C17.8215 31.1138 18.5208 31.4034 19.25 31.4034C19.9792 31.4034 20.6785 31.1138 21.1942 30.5982L32.1942 19.5982V19.5982Z"
+                                    fill="#FFC802"
+                                    fill-opacity="0.5"
+                                ></path>
+                            </svg>
+                        </div>
+
+                        <h5>Burn free, guaranteed</h5>
+
+                        <p>
+                            Don’t get burned by fakes or scams. We scan all
+                            tickets to ensure they are legit. If your tickets
+                            aren’t what you paid for, you’re protected with
+                            Tixel’s money-back guarantee.
+                        </p>
+                    </div>
+
+                    <div class="mission__inner-item">
+                        <div class="mission__icon">
+                            <svg
+                                viewBox="0 0 78 47"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M33.9565 8.7472C41.9181 8.6482 49.5732 5.66296 55.5 0.345947C61.4264 5.66396 69.0815 8.65019 77.0435 8.74995C77.346 10.5374 77.5 12.3799 77.5 14.2527C77.5 28.6214 68.315 40.8452 55.5 45.3744C42.685 40.8424 33.5 28.6187 33.5 14.2499C33.5 12.3744 33.6567 10.5374 33.9565 8.7472V8.7472ZM65.6942 18.9442C66.1952 18.4255 66.4724 17.7309 66.4661 17.0098C66.4598 16.2888 66.1706 15.5991 65.6608 15.0892C65.1509 14.5793 64.4611 14.2901 63.7401 14.2838C63.0191 14.2776 62.3244 14.5548 61.8058 15.0557L52.75 24.1114L49.1942 20.5557C48.6756 20.0548 47.9809 19.7776 47.2599 19.7838C46.5389 19.7901 45.8491 20.0793 45.3392 20.5892C44.8294 21.0991 44.5402 21.7888 44.5339 22.5098C44.5276 23.2309 44.8048 23.9255 45.3058 24.4442L50.8058 29.9442C51.3215 30.4597 52.0208 30.7494 52.75 30.7494C53.4792 30.7494 54.1785 30.4597 54.6942 29.9442L65.6942 18.9442V18.9442Z"
+                                    fill="#F082EA"
+                                    fill-opacity="0.5"
+                                ></path>
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M0.4565 9.40125C8.41812 9.30225 16.0732 6.31701 22 1C27.9264 6.31801 35.5815 9.30425 43.5435 9.404C43.846 11.1915 44 13.034 44 14.9068C44 29.2755 34.815 41.4993 22 46.0285C9.185 41.4965 0 29.2727 0 14.904C0 13.0285 0.15675 11.1915 0.4565 9.40125V9.40125ZM32.1942 19.5982C32.6952 19.0796 32.9724 18.3849 32.9661 17.6639C32.9598 16.9429 32.6706 16.2531 32.1608 15.7432C31.6509 15.2334 30.9611 14.9442 30.2401 14.9379C29.5191 14.9316 28.8244 15.2088 28.3058 15.7097L19.25 24.7655L15.6942 21.2097C15.1756 20.7088 14.4809 20.4316 13.7599 20.4379C13.0389 20.4442 12.3491 20.7334 11.8392 21.2432C11.3294 21.7531 11.0402 22.4429 11.0339 23.1639C11.0276 23.8849 11.3048 24.5796 11.8058 25.0982L17.3058 30.5982C17.8215 31.1138 18.5208 31.4034 19.25 31.4034C19.9792 31.4034 20.6785 31.1138 21.1942 30.5982L32.1942 19.5982V19.5982Z"
+                                    fill="#FFC802"
+                                    fill-opacity="0.5"
+                                ></path>
+                            </svg>
+                        </div>
+
+                        <h5>Capped pricing</h5>
+
+                        <p>
+                            Don’t get burned by fakes or scams. We scan all
+                            tickets to ensure they are legit. If your tickets
+                            aren’t what you paid for, you’re protected with
+                            Tixel’s money-back guarantee.
+                        </p>
+                    </div>
+
+                    <div class="mission__inner-item">
+                        <div class="mission__icon">
+                            <svg
+                                viewBox="0 0 78 47"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M33.9565 8.7472C41.9181 8.6482 49.5732 5.66296 55.5 0.345947C61.4264 5.66396 69.0815 8.65019 77.0435 8.74995C77.346 10.5374 77.5 12.3799 77.5 14.2527C77.5 28.6214 68.315 40.8452 55.5 45.3744C42.685 40.8424 33.5 28.6187 33.5 14.2499C33.5 12.3744 33.6567 10.5374 33.9565 8.7472V8.7472ZM65.6942 18.9442C66.1952 18.4255 66.4724 17.7309 66.4661 17.0098C66.4598 16.2888 66.1706 15.5991 65.6608 15.0892C65.1509 14.5793 64.4611 14.2901 63.7401 14.2838C63.0191 14.2776 62.3244 14.5548 61.8058 15.0557L52.75 24.1114L49.1942 20.5557C48.6756 20.0548 47.9809 19.7776 47.2599 19.7838C46.5389 19.7901 45.8491 20.0793 45.3392 20.5892C44.8294 21.0991 44.5402 21.7888 44.5339 22.5098C44.5276 23.2309 44.8048 23.9255 45.3058 24.4442L50.8058 29.9442C51.3215 30.4597 52.0208 30.7494 52.75 30.7494C53.4792 30.7494 54.1785 30.4597 54.6942 29.9442L65.6942 18.9442V18.9442Z"
+                                    fill="#F082EA"
+                                    fill-opacity="0.5"
+                                ></path>
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M0.4565 9.40125C8.41812 9.30225 16.0732 6.31701 22 1C27.9264 6.31801 35.5815 9.30425 43.5435 9.404C43.846 11.1915 44 13.034 44 14.9068C44 29.2755 34.815 41.4993 22 46.0285C9.185 41.4965 0 29.2727 0 14.904C0 13.0285 0.15675 11.1915 0.4565 9.40125V9.40125ZM32.1942 19.5982C32.6952 19.0796 32.9724 18.3849 32.9661 17.6639C32.9598 16.9429 32.6706 16.2531 32.1608 15.7432C31.6509 15.2334 30.9611 14.9442 30.2401 14.9379C29.5191 14.9316 28.8244 15.2088 28.3058 15.7097L19.25 24.7655L15.6942 21.2097C15.1756 20.7088 14.4809 20.4316 13.7599 20.4379C13.0389 20.4442 12.3491 20.7334 11.8392 21.2432C11.3294 21.7531 11.0402 22.4429 11.0339 23.1639C11.0276 23.8849 11.3048 24.5796 11.8058 25.0982L17.3058 30.5982C17.8215 31.1138 18.5208 31.4034 19.25 31.4034C19.9792 31.4034 20.6785 31.1138 21.1942 30.5982L32.1942 19.5982V19.5982Z"
+                                    fill="#FFC802"
+                                    fill-opacity="0.5"
+                                ></path>
+                            </svg>
+                        </div>
+
+                        <h5>Waitlists that work</h5>
+
+                        <p>
+                            Don’t get burned by fakes or scams. We scan all
+                            tickets to ensure they are legit. If your tickets
+                            aren’t what you paid for, you’re protected with
+                            Tixel’s money-back guarantee.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Mission Area -->
+        </main>
+        <!-- Main Content -->
+
+        <!-- Footer Area -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="about.html">about us</a></li>
+                            <li>
+                                <a href="purpose.html">Purpose</a>
+                            </li>
+                            <li></li>
+                            <!-- <li><a href="purpose.html">Purpose</a></li> -->
+                            <!-- <li><a href="#">privacy policy</a></li> -->
+                            <li>
+                                <!-- <a href="#">affiliate programs</a> -->
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Events</h4>
+                        <ul>
+                            <li><a href="#">United States</a></li>
+                            <li><a href="#">Canada</a></li>
+                            <li><a href="#">Australia</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Event Organizers</h4>
+                        <ul>
+                            <li>
+                                <a href="artists.html">Artists and Promoters</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/qarsakofficial"
+                                ><i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#"><i class="fab fa-twitter"></i> </a>
+                            <a href="https://www.instagram.com/qarsak_official/"
+                                ><i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@qarsak.com"
+                                ><i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>
+                    @ 2022 Qarsak LLC All Rights Reserved<span class="f-span-1"
+                        ><a href="terms-condition.html">Terms & Condition</a>
+                    </span>
+                    <span class="f-span-2"
+                        ><a href="privacy-policy.html">Privacy Policy</a></span
+                    >
+                </p>
+            </div>
+        </footer>
+        <!-- Footer Area -->
+
+        <!-- Swiper Slider JS CDN Link  -->
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+        <script src="main.js"></script>
+
+        <!-- Search Functionality -->
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            function redirectToOtherSite() {
+                let searchVal = $('#search-bar').val();
+                if (
+                    searchVal != undefined &&
+                    searchVal != null &&
+                    searchVal != ''
+                ) {
+                    window.open('https://tickets.qarsak.com/?q=' + searchVal);
+                }
+            }
+        </script>
+    </body>
+</html>
