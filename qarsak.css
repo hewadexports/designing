@@ -1622,7 +1622,8 @@ nav a.menu-item:hover:before {
 #ts-events-listing-container.list .event-paging {
   padding: 30px 60px !important;
   background: #fff;
-  box-shadow: 0 1px 8px 0 rgb(28 35 43 / 15%);
+  box-shadow: 2px 5px 10px rgb(0 0 0 / 80%);
+
   border-radius: 4px;
   margin-bottom: 12px !important;
 }
